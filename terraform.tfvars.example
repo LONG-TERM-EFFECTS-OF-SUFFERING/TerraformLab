@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars only for local testing.
+# Do not commit terraform.tfvars.
+
+name_prefix = "brandon-iac"
+person_name = "Brandon"
+aws_region  = "us-east-1"
+
+common_tags = {
+  Environment = "dev"
+  Course      = "IaC"
+  Owner       = "Brandon"
+}
